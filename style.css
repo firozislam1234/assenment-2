@@ -1,0 +1,47 @@
+*{margin:0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared style */
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.tomato-primary{
+    color: #ff5400;
+}
+.gray-primary{
+    color:#5A5A5D;
+}
+
+/* nav manu style */
+header{
+    width: 100%;
+    padding: 3.12rem 0rem;
+}
+nav .nav-title{
+    font-size: 2.25rem;
+    display: flex;
+}
+header nav{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-manu{
+    font-size: 1.20rem;
+}
+.nav-manu ul{
+    display: flex;
+    gap:1.25rem
+}
+.nav-manu ul li{
+    list-style: none;
+}
+.nav-manu ul li a{
+    text-decoration: none;
+}
+.toggel{
+    display: none;
+}
